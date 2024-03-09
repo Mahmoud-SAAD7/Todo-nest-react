@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import ProfileComponent from "./linkedinProfile";
+
 
 export default function Todo() {
   const [todos, setTodos] = useState([]);
@@ -208,9 +208,7 @@ export default function Todo() {
             Add Todo
           </button>
         </div>
-        {/* <div>
-          <ProfileComponent/>
-        </div> */}
+     
       </div>
     </div>
   );
